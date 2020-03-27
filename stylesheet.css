@@ -16,6 +16,25 @@ PASTEL BLUE - #AFC2D5
 	font-size: 25px;
 }
 
+body {
+	background-color: #373737;
+	margin:0px;
+	padding:0px;
+}
+
+.header {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(244, 255, 245, 0.15);
+	top: 0;
+}
+
+.header-title {
+	color: white;
+	opacity: 100%;
+}
+
 .list {
 	position: relative;
 	background-color: #FCEFEF;
@@ -24,7 +43,8 @@ PASTEL BLUE - #AFC2D5
 	width: 300px;
 	height: 700px;
 	float: left;
-	margin: 10px;
+	top: 80px;
+	margin: 5px;
 }
 
 .list-title {
