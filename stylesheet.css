@@ -1,3 +1,14 @@
+/*
+COLORS:
+INDEPENDENCE - #4B3F72
+SEASHELL - #FCEDED
+CAMEO PINK - #E3BAC6
+BLUE SAPPHIRE - #19647E
+ONYX - #373737
+MINT CREAM - #F4FFF5
+PASTEL BLUE - #AFC2D5
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 * {
@@ -8,18 +19,20 @@
 .list {
 	position: relative;
 	background-color: #FCEFEF;
-	border: 3px solid #19647E;
+	border: 3px solid #AFC2D5;
 	border-radius: 7px;
 	width: 300px;
 	height: 700px;
+	float: left;
+	margin: 10px;
 }
 
 .list-title {
 	position: absolute;
 	width: 100%;
 	height:50px;
-	border-top-right-radius: 7px;
-	border-top-left-radius: 7px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
 	background-color: #AFC2D5;
 }
 
@@ -35,15 +48,22 @@
 }
 
 .list-card {
-	background-color: #FFFEF7;
+	background-color: #373737;
 	border-radius: 7px;
 	margin: 8px;
-	padding: 10px;
-	height: 80px;
+	padding: 1px;
+	height: auto;
 }
 
 .list-card-title {
-	background-color: blue;
+	color: #AFC2D5;
 	position: relative; 
-	top: 0%
+	margin: 3%;
+}
+
+.list-card-info {
+	color: #F4FFF5;
+	margin: 3%;
+	font-size: 20px;
+  	white-space:normal;
 }
