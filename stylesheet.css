@@ -32,7 +32,6 @@ body {
 
 .header-title {
 	color: white;
-	opacity: 100%;
 }
 
 .list {
@@ -45,6 +44,7 @@ body {
 	float: left;
 	top: 80px;
 	margin: 5px;
+	overflow: auto;
 }
 
 .list-title {
