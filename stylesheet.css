@@ -39,8 +39,8 @@ body {
 	background-color: #FCEFEF;
 	border: 3px solid #AFC2D5;
 	border-radius: 7px;
-	width: 300px;
-	max-height: 700px;
+	width: 25%;
+	max-height: 750px;
 	float: left;
 	top: 80px;
 	margin: 5px;
@@ -48,31 +48,55 @@ body {
     flex-direction: column;
 }
 
+
+.list-title-container {
+	position: relative;
+	min-height:50px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color: #AFC2D5;
+	display: flex;
+	flex-direction: row;
+}
+
 .list-items-container {
 	position: relative;
 	overflow-y: auto;
   	overflow-x: hidden;
-  	flex: 1;
 }
 
 .list-title {
-	position: relative;
+	position: absolute;
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	height:50px;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
-	background-color: #AFC2D5;
+	height: 100%;
 }
 
 .list-title-text {
 	position: relative;
 	bottom: 50%;
-	width: 100%;
-	height: 100%;
 	color: white;
 	font-size: 30px;
 	text-align: center;
 	color: #373737;
+	z-index: 1;
+}
+
+.list-extra {
+	/*background-color: red;*/
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	display: inline-block;
+}
+
+.extra-add-card {
+	position: relative;
+	top: 20%;
+	background-color: rgba(244, 255, 245, 0.9);
+	border-radius: 10px;
+	width: 30px;
 }
 
 .list-card {
