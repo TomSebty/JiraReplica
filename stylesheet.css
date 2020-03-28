@@ -34,9 +34,11 @@ body {
 
 .header-title {
 	color: white;
+	font-size: 35px;
+	vertical-align: bottom;
 }
 
-.container {
+.main-container {
 	user-select: none;
     white-space: nowrap;
     margin-bottom: 8px;
@@ -50,7 +52,7 @@ body {
     left: 0;
 }
 
-.list {
+.list-wrapper {
 	background-color: #FCEFEF;
 	border: 3px solid #AFC2D5;
 	border-radius: 7px;
@@ -79,7 +81,7 @@ body {
     flex-direction: column;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 700px;
+    max-height: 680px;
     background-color: #FCEDED;
     border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
@@ -97,7 +99,7 @@ body {
 
 .list-title-text {
 	position: relative;
-	bottom: 50%;
+	bottom: 0;
 	color: white;
 	font-size: 30px;
 	text-align: center;
