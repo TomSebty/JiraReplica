@@ -7,6 +7,7 @@ BLUE SAPPHIRE - #19647E
 ONYX - #373737
 MINT CREAM - #F4FFF5
 PASTEL BLUE - #AFC2D5
+CYAN CORNFLOWER BLUE - #228AAD
 */
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
@@ -17,7 +18,7 @@ PASTEL BLUE - #AFC2D5
 }
 
 body {
-	background-color: #373737;
+	background-color: #19647E;
 	margin:0px;
 	padding:0px;
 	overflow: hidden;
@@ -30,12 +31,15 @@ body {
 	background-color: rgba(244, 255, 245, 0.15);
 	top: 0;
 	z-index: 10;
+	height: 7%;
 }
 
 .header-title {
 	color: white;
-	font-size: 35px;
-	vertical-align: bottom;
+}
+
+.header-title:hover {
+	color: #C4C4C4
 }
 
 .main-container {
@@ -114,7 +118,7 @@ body {
 	display: inline-block;
 }
 
-.extra-add-card {
+.extra-btn {
 	position: relative;
 	margin: 0px 8px;
 	top: 15%;
@@ -129,6 +133,10 @@ body {
   	display: inline-block;
   	font-size: 20px;
   	cursor: pointer;
+}
+
+.extra-btn:hover {
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .list-card {
