@@ -80,6 +80,9 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 700px;
+    background-color: #FCEDED;
+    border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
     
 }
 
