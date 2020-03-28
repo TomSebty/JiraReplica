@@ -20,3 +20,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(100, 100, 100, 0.5); 
 }
+
+.logo {
+	position: relative;
+	width: 140px;
+}
+
+.logo:hover {
+	filter: brightness(80%);
+}
