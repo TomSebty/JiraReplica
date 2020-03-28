@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jira Replica</title>
+	<title>Sebtask</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="misc.css">
+
+	
+
 </head>
 <body>
 	<div class="header">
-		<h1 class="header-title">Trello Replica</h1>
+		<h1 class="header-title">Sebtask</h1>
 	</div>
 
-	<div class="container">
-  		<div class="list">
+	<div class="main-container">
+  		<div class="list-wrapper">
   			<div class="list-title-container">
 	  			<div class="list-title">
 	  				<p class="list-title-text">To-Do List</p>
   				</div>
   				<div class="list-extra">
-	  				<a href="" class="extra-add-card">...</a>
+	  				<button class="extra-add-card">...</button>
   				</div>
 			</div>
 
@@ -46,13 +50,13 @@
   			</div>
   		</div>
 
-  		<div class="list">
+  		<div class="list-wrapper">
 	  		<div class="list-title-container">
   				<div class="list-title">
 		  			<p class="list-title-text">Doing</p>
   				</div>
   				<div class="list-extra">
-	  				<a href="" class="extra-add-card">...</a>
+	  				<button class="extra-add-card">...</button>
   				</div>
 			</div>
 
@@ -72,23 +76,26 @@
   			</div>
  	 	</div>
 
-  		<div class="list">
+  		<div class="list-wrapper">
   			<div class="list-title-container">
   				<div class="list-title">
 	 	 			<p class="list-title-text">Done</p>
   				</div>
   				<div class="list-extra">
-  					<a href="" class="extra-add-card">...</a>
+  					<button class="extra-add-card">...</button>
   				</div>
 			</div>
 
   			<div class="list-items-container">
-  			
+  				<div class="list-card">
+	  				<p class="list-card-title">test test test</p>
+  					<p class="list-card-info">some text to test body of card. It is very long.</p>
+  				</div>
   			</div>
   		</div>
 
   		<div class="list-extra">
-  			<a href="" class="list list-add">+ Add Another List</a>
+  			<button class="extra-add-card list-add">+ Add Another List</button>
   		</div>
 
   	</div>
